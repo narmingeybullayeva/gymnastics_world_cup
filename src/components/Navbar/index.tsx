@@ -2,7 +2,7 @@ import { FaArrowLeftLong } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
-    <nav className="bg-[#080915] text-white px-6 py-4">
+    <nav className="text-white px-6 py-4">
       <div className="w-[1124] pt-[180px] px-[108px]">
         <div className="flex flex-col gap-4 mb-4 ">
           <div className="flex items-center gap-1.5">
