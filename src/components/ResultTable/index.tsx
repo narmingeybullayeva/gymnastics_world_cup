@@ -9,7 +9,7 @@ import GBR from "../../assets/images/UK.png";
 export default function ResultTable() {
   return (
     <div className="overflow-x-auto mt-12 text-sm text-gray-300 font-light">
-      <table className="min-w-full border-separate border-spacing-y-8">
+      <table className="min-w-full border-separate border-spacing-y-4">
         <thead>
           <tr className="text-left text-white text-xs">
             <th>Rank</th>
@@ -23,10 +23,9 @@ export default function ResultTable() {
           </tr>
         </thead>
         <tbody>
-
           {/* row 1 */}
-          <tr className='p-0'>
-            <td className="py-2 pl-2">
+          <tr>
+            <td className="pl-2">
               <div className="bg-[#0A8BEC] text-white px-2 py-1 w-6 text-center text-xs">
                 1
               </div>
@@ -42,34 +41,23 @@ export default function ResultTable() {
             <td className="text-center text-[#C4C4C4]">43.833</td>
             <td className="text-center text-[#C4C4C4]">43.833</td>
             <td className="text-center text-[#C4C4C4]">43.833</td>
-            <td className="text-center text-[#C4C4C4] ">
-              102.256
-            </td>
+            <td className="text-center text-[#C4C4C4] ">102.256</td>
           </tr>
 
           <tr>
-            <td ></td>
-            <td ></td>
-            <td ></td>
-            <td ></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
             <td className="text-center text-[#C4C4C4]">43.833</td>
             <td className="text-center text-[#C4C4C4]">43.833</td>
             <td className="text-center text-[#C4C4C4]">43.833</td>
-            <td className="text-center text-[#C4C4C4] ">
-              102.256
-            </td>
+            <td className="text-center text-[#C4C4C4] ">102.256</td>
           </tr>
           <tr className="relative">
-            <td ></td>
-            <td ></td>
-            <td ></td>
-            <td ></td>
-            <td ></td>
-            <td ></td>
+            <td colSpan={6}></td>
             <td className="text-center text-[#C4C4C4]">Score</td>
-            <td className="text-center text-[#FF9C07] ">
-              102.256
-            </td>
+            <td className="text-center text-[#FF9C07] ">102.256</td>
             <td
               colSpan={8}
               className="absolute bottom-[-12px] left-0 w-full h-[2px]"
@@ -97,34 +85,28 @@ export default function ResultTable() {
             <td className="text-center text-[#C4C4C4]">43.833</td>
             <td className="text-center text-[#C4C4C4]">43.833</td>
             <td className="text-center text-[#C4C4C4]">43.833</td>
-            <td className="text-center text-[#C4C4C4]">
-              102.256
-            </td>
+            <td className="text-center text-[#C4C4C4]">102.256</td>
           </tr>
 
           <tr>
-            <td ></td>
-            <td ></td>
-            <td ></td>
-            <td ></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
             <td className="text-center text-[#C4C4C4]">43.833</td>
             <td className="text-center text-[#C4C4C4]">43.833</td>
             <td className="text-center text-[#C4C4C4]">43.833</td>
-            <td className="text-center text-[#C4C4C4] ">
-              102.256
-            </td>
+            <td className="text-center text-[#C4C4C4] ">102.256</td>
           </tr>
           <tr className="relative">
-            <td ></td>
-            <td ></td>
-            <td ></td>
-            <td ></td>
-            <td ></td>
-            <td ></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
             <td className="text-center text-[#C4C4C4]">Score</td>
-            <td className="text-center text-[#FF9C07] ">
-              102.256
-            </td>
+            <td className="text-center text-[#FF9C07] ">102.256</td>
             <td
               colSpan={8}
               className="absolute bottom-[-12px] left-0 w-full h-[2px]"
@@ -152,34 +134,28 @@ export default function ResultTable() {
             <td className="text-center text-[#C4C4C4]">43.833</td>
             <td className="text-center text-[#C4C4C4]">43.833</td>
             <td className="text-center text-[#C4C4C4]">43.833</td>
-            <td className="text-center text-[#C4C4C4]">
-              102.256
-            </td>
+            <td className="text-center text-[#C4C4C4]">102.256</td>
           </tr>
 
           <tr>
-            <td ></td>
-            <td ></td>
-            <td ></td>
-            <td ></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
             <td className="text-center text-[#C4C4C4]">43.833</td>
             <td className="text-center text-[#C4C4C4]">43.833</td>
             <td className="text-center text-[#C4C4C4]">43.833</td>
-            <td className="text-center text-[#C4C4C4] ">
-              102.256
-            </td>
+            <td className="text-center text-[#C4C4C4] ">102.256</td>
           </tr>
           <tr className="relative">
-            <td ></td>
-            <td ></td>
-            <td ></td>
-            <td ></td>
-            <td ></td>
-            <td ></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
             <td className="text-center text-[#C4C4C4]">Score</td>
-            <td className="text-center text-[#FF9C07] ">
-              102.256
-            </td>
+            <td className="text-center text-[#FF9C07] ">102.256</td>
             <td
               colSpan={8}
               className="absolute bottom-[-12px] left-0 w-full h-[2px]"
@@ -207,35 +183,28 @@ export default function ResultTable() {
             <td className="text-center text-[#C4C4C4]">43.833</td>
             <td className="text-center text-[#C4C4C4]">43.833</td>
             <td className="text-center text-[#C4C4C4]">43.833</td>
-            <td className="text-center text-[#C4C4C4]">
-              102.256
-            </td>
-
+            <td className="text-center text-[#C4C4C4]">102.256</td>
           </tr>
 
           <tr>
-            <td ></td>
-            <td ></td>
-            <td ></td>
-            <td ></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
             <td className="text-center text-[#C4C4C4]">43.833</td>
             <td className="text-center text-[#C4C4C4]">43.833</td>
             <td className="text-center text-[#C4C4C4]">43.833</td>
-            <td className="text-center text-[#C4C4C4] ">
-              102.256
-            </td>
+            <td className="text-center text-[#C4C4C4] ">102.256</td>
           </tr>
           <tr className="relative">
-            <td ></td>
-            <td ></td>
-            <td ></td>
-            <td ></td>
-            <td ></td>
-            <td ></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
             <td className="text-center text-[#C4C4C4]">Score</td>
-            <td className="text-center text-[#FF9C07] ">
-              102.256
-            </td>
+            <td className="text-center text-[#FF9C07] ">102.256</td>
             <td
               colSpan={8}
               className="absolute bottom-[-12px] left-0 w-full h-[2px]"
@@ -263,30 +232,23 @@ export default function ResultTable() {
             <td className="text-center text-[#C4C4C4]">43.833</td>
             <td className="text-center text-[#C4C4C4]">43.833</td>
             <td className="text-center text-[#C4C4C4]">43.833</td>
-            <td className="text-center text-[#C4C4C4]">
-              102.256
-            </td>
-
+            <td className="text-center text-[#C4C4C4]">102.256</td>
           </tr>
 
           <tr>
-            <td ></td>
-            <td ></td>
-            <td ></td>
-            <td ></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
             <td className="text-center text-[#C4C4C4]">43.833</td>
             <td className="text-center text-[#C4C4C4]">43.833</td>
             <td className="text-center text-[#C4C4C4]">43.833</td>
-            <td className="text-center text-[#C4C4C4] ">
-              102.256
-            </td>
+            <td className="text-center text-[#C4C4C4] ">102.256</td>
           </tr>
           <tr className="relative">
             <td colSpan={6}></td>
             <td className="text-center text-[#C4C4C4]">Score</td>
-            <td className="text-center text-[#FF9C07] ">
-              102.256
-            </td>
+            <td className="text-center text-[#FF9C07] ">102.256</td>
             <td
               colSpan={8}
               className="absolute bottom-[-12px] left-0 w-full h-[2px]"
@@ -320,28 +282,24 @@ export default function ResultTable() {
           </tr>
 
           <tr>
-            <td ></td>
-            <td ></td>
-            <td ></td>
-            <td ></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
             <td className="text-center text-[#C4C4C4]">43.833</td>
             <td className="text-center text-[#C4C4C4]">43.833</td>
             <td className="text-center text-[#C4C4C4]">43.833</td>
-            <td className="text-center text-[#C4C4C4] ">
-              102.256
-            </td>
+            <td className="text-center text-[#C4C4C4] ">102.256</td>
           </tr>
           <tr className="relative">
-            <td ></td>
-            <td ></td>
-            <td ></td>
-            <td ></td>
-            <td ></td>
-            <td ></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
             <td className="text-center text-[#C4C4C4]">Score</td>
-            <td className="text-center text-[#FF9C07] ">
-              102.256
-            </td>
+            <td className="text-center text-[#FF9C07] ">102.256</td>
             <td
               colSpan={8}
               className="absolute bottom-[-12px] left-0 w-full h-[2px]"
@@ -375,28 +333,24 @@ export default function ResultTable() {
           </tr>
 
           <tr>
-            <td ></td>
-            <td ></td>
-            <td ></td>
-            <td ></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
             <td className="text-center text-[#C4C4C4]">43.833</td>
             <td className="text-center text-[#C4C4C4]">43.833</td>
             <td className="text-center text-[#C4C4C4]">43.833</td>
-            <td className="text-center text-[#C4C4C4] ">
-              102.256
-            </td>
+            <td className="text-center text-[#C4C4C4] ">102.256</td>
           </tr>
           <tr className="relative">
-            <td ></td>
-            <td ></td>
-            <td ></td>
-            <td ></td>
-            <td ></td>
-            <td ></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
             <td className="text-center text-[#C4C4C4]">Score</td>
-            <td className="text-center text-[#FF9C07] ">
-              102.256
-            </td>
+            <td className="text-center text-[#FF9C07] ">102.256</td>
             <td
               colSpan={8}
               className="absolute bottom-[-12px] left-0 w-full h-[2px]"
