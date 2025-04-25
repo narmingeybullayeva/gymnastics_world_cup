@@ -1,164 +1,209 @@
 [
-    {
-      "id": 1,
-      "rank": 1,
-      "bib": 212,
-      "athlete": {
-        "name": "Amirbekov T.",
-        "team_code": "AZE",
-        "team_name": "Azerbaijan"
-      },
-      "total_score": 12.366,
-      "apparatus_scores": {
-        "d": 4.6,
-        "e": 8.2,
-        "p": 0.4,
-        "app": 12.306,
-        "app_rank": 7,
-        "aa": 102.6,
-        "aa_rank": 4,
-        "team": 12.5,
-        "team_rank": 12
-      },
-      "status": "Finished"
+  {
+    "id": 1,
+    "rank": 1,
+    "bib": 212,
+    "athlete": {
+      "name": "Amirbekov T.",
+      "team_code": "AZE",
+      "team_name": "Azerbaijan"
     },
-    {
-      "id": 2,
-      "rank": 2,
-      "bib": 201,
-      "athlete": {
-        "name": "Amirbekov Teymur.",
-        "team_code": "RUS",
-        "team_name": "Russian"
-      },
-      "total_score": 13.200,
-      "apparatus_scores": {
-        "d": 5.0,
-        "e": 8.5,
-        "p": 0.3,
-        "app": 13.2,
-        "app_rank": 1,
-        "aa": 101.4,
-        "aa_rank": 3,
-        "team": 13.2,
-        "team_rank": 1
-      },
-      "status": "Finished"
+    "total_score": 12.366,
+    "apparatus_name": "Pommel Horse",
+    "apparatus_code": "PH",
+    "apparatus_scores": {
+      "d": 4.6,
+      "e": 8.2,
+      "p": 0.4,
+      "app": 12.306,
+      "app_rank": 7,
+      "aa": 102.6,
+      "aa_rank": 4,
+      "team": 12.5,
+      "team_rank": 12
     },
-    {
-      "id": 3,
-      "rank": 3,
-      "bib": 175,
-      "athlete": {
-        "name": "Terim F.",
-        "team_code": "TUR",
-        "team_name": "Turkish"
-      },
-      "total_score": 12.800,
-      "apparatus_scores": {
-        "d": 4.9,
-        "e": 8.3,
-        "p": 0.4,
-        "app": 12.8,
-        "app_rank": 3,
-        "aa": 99.2,
-        "aa_rank": 7,
-        "team": 12.9,
-        "team_rank": 2
-      },
-      "status": "Finished"
+    "status": "Finished",
+    "inquiry_submitted": false
+  },
+  {
+    "id": 2,
+    "rank": 2,
+    "bib": 201,
+    "athlete": {
+      "name": "Baryshnikov A.",
+      "team_code": "RU",
+      "team_name": "Russian"
     },
-    {
-      "id": 4,
-      "rank": 4,
-      "bib": 189,
-      "athlete": {
-        "name": "Kim H.J.",
-        "team_code": "POR",
-        "team_name": "Korea"
-      },
-      "total_score": 13.000,
-      "apparatus_scores": {
-        "d": 5.2,
-        "e": 8.4,
-        "p": 0.6,
-        "app": 13.0,
-        "app_rank": 2,
-        "aa": 100.1,
-        "aa_rank": 5,
-        "team": 13.0,
-        "team_rank": 2
-      },
-      "status": "Finished"
+    "total_score": 13.2,
+    "apparatus_name": "Vault",
+    "apparatus_code": "VT",
+    "apparatus_scores": {
+      "d": 5,
+      "e": 8.5,
+      "p": 0.3,
+      "app": 13.2,
+      "app_rank": 1,
+      "aa": 101.4,
+      "aa_rank": 3,
+      "team": 13.2,
+      "team_rank": 1
     },
-    {
-      "id": 5,
-      "rank": 5,
-      "bib": 220,
-      "athlete": {
-        "name": "Smith J.",
-        "team_code": "GRB",
-        "team_name": "Great Britain"
-      },
-      "total_score": 12.100,
-      "apparatus_scores": {
-        "d": 4.5,
-        "e": 8.0,
-        "p": 0.4,
-        "app": 12.1,
-        "app_rank": 6,
-        "aa": 97.3,
-        "aa_rank": 14,
-        "team": 12.0,
-        "team_rank": 4
-      },
-      "status": "Finished"
+    "status": "Finished",
+    "inquiry_submitted": false
+  },
+  {
+    "id": 3,
+    "rank": 3,
+    "bib": 175,
+    "athlete": {
+      "name": "Terim F.",
+      "team_code": "TUR",
+      "team_name": "Turkish"
     },
-    {
-      "id": 6,
-      "rank": 6,
-      "bib": 198,
-      "athlete": {
-        "name": "Tanaka Y.",
-        "team_code": "ISR",
-        "team_name": "Israel"
-      },
-      "total_score": 11.800,
-      "apparatus_scores": {
-        "d": 4.3,
-        "e": 7.9,
-        "p": 0.4,
-        "app": 11.8,
-        "app_rank": 7,
-        "aa": 96.8,
-        "aa_rank": 15,
-        "team": 11.9,
-        "team_rank": 5
-      },
-      "status": "Finished"
+    "total_score": 12.8,
+    "apparatus_name": "Rings",
+    "apparatus_code": "Rings",
+    "apparatus_scores": {
+      "d": 4.9,
+      "e": 8.3,
+      "p": 0.4,
+      "app": 12.8,
+      "app_rank": 3,
+      "aa": 99.2,
+      "aa_rank": 7,
+      "team": 12.9,
+      "team_rank": 2
     },
-    {
-      "id": 7,
-      "rank": 7,
-      "bib": 209,
-      "athlete": {
-        "name": "Lopez M.",
-        "team_code": "POL",
-        "team_name": "Polish"
-      },
-      "total_score": 12.600,
-      "apparatus_scores": {
-        "d": 4.8,
-        "e": 8.1,
-        "p": 0.3,
-        "app": 12.6,
-        "app_rank": 4,
-        "aa": 98.9,
-        "aa_rank": 9,
-        "team": 12.7,
-        "team_rank": 3
-      },
-      "status": "Finished"
-    }
-  ]
-  
+    "status": "Finished",
+    "inquiry_submitted": false
+  },
+  {
+    "id": 4,
+    "rank": 4,
+    "bib": 189,
+    "athlete": {
+      "name": "Kim H.J.",
+      "team_code": "POR",
+      "team_name": "Korea"
+    },
+    "total_score": 13,
+    "apparatus_name": "Vault",
+    "apparatus_code": "VT",
+    "apparatus_scores": {
+      "d": 5.2,
+      "e": 8.4,
+      "p": 0.6,
+      "app": 13,
+      "app_rank": 2,
+      "aa": 100.1,
+      "aa_rank": 5,
+      "team": 13,
+      "team_rank": 2
+    },
+    "status": "Wait",
+    "inquiry_submitted": false
+  },
+  {
+    "id": 5,
+    "rank": 5,
+    "bib": 220,
+    "athlete": {
+      "name": "Smith J.",
+      "team_code": "UK",
+      "team_name": "Great Britain"
+    },
+    "total_score": 12.1,
+    "apparatus_name": "High Bar",
+    "apparatus_code": "HB",
+    "apparatus_scores": {
+      "d": 4.5,
+      "e": 8,
+      "p": 0.4,
+      "app": 12.1,
+      "app_rank": 6,
+      "aa": 97.3,
+      "aa_rank": 14,
+      "team": 12,
+      "team_rank": 4
+    },
+    "status": "Finished",
+    "inquiry_submitted": false
+  },
+  {
+    "id": 6,
+    "rank": 6,
+    "bib": 198,
+    "athlete": {
+      "name": "Tanaka Y.",
+      "team_code": "Israel",
+      "team_name": "Israel"
+    },
+    "total_score": 11.8,
+    "apparatus_name": "Floor Exercise",
+    "apparatus_code": "FX",
+    "apparatus_scores": {
+      "d": 4.3,
+      "e": 7.9,
+      "p": 0.4,
+      "app": 11.8,
+      "app_rank": 7,
+      "aa": 96.8,
+      "aa_rank": 15,
+      "team": 11.9,
+      "team_rank": 5
+    },
+    "status": "Go",
+    "inquiry_submitted": false
+  },
+  {
+    "id": 7,
+    "rank": 7,
+    "bib": 209,
+    "athlete": {
+      "name": "Wiltord T.",
+      "team_code": "POL",
+      "team_name": "Polish"
+    },
+    "total_score": 12.6,
+    "apparatus_name": "Parallel Bars",
+    "apparatus_code": "PB",
+    "apparatus_scores": {
+      "d": 4.8,
+      "e": 8.1,
+      "p": 0.3,
+      "app": 12.6,
+      "app_rank": 4,
+      "aa": 98.9,
+      "aa_rank": 9,
+      "team": 12.7,
+      "team_rank": 3
+    },
+    "status": "Finished",
+    "inquiry_submitted": false
+  },{
+    "id": 8,
+    "rank": 8,
+    "bib": 209,
+    "athlete": {
+      "name": "Bakaev J.",
+      "team_code": "DE",
+      "team_name": "Germany"
+    },
+    "total_score": 12.6,
+    "apparatus_name": "High Bar",
+    "apparatus_code": "HB",
+    "apparatus_scores": {
+      "d": 4.8,
+      "e": 8.1,
+      "p": 0.3,
+      "app": 12.6,
+      "app_rank": 4,
+      "aa": 98.9,
+      "aa_rank": 9,
+      "team": 12.7,
+      "team_rank": 3
+    },
+    "status": "Finished",
+    "inquiry_submitted": true
+  }
+]

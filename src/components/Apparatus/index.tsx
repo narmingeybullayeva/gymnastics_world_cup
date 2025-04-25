@@ -1,9 +1,9 @@
-import vaultImg from "../../assets/images/VT.png";
-import pommelImg from "../../assets/images/PH.png";
-import ringsImg from "../../assets/images/Rings.png";
-import parallelImg from "../../assets/images/PB.png";
-import horizontalImg from "../../assets/images/HB.png";
-import floorImg from "../../assets/images/FX.png";
+import vaultImg from "../../../public/images/VT.png";
+import pommelImg from "../../../public/images/PH.png";
+import ringsImg from "../../../public/images/Rings.png";
+import parallelImg from "../../../public/images/PB.png";
+import horizontalImg from "../../../public/images/HB.png";
+import floorImg from "../../../public/images/FX.png";
 
 const Apparatus = () => {
   return (
