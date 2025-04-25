@@ -2,8 +2,8 @@ import { FaArrowLeftLong } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
-    <nav className="text-white px-6 py-4">
-      <div className="w-[1124] pt-[180px] px-[108px]">
+    <nav className="text-white py-4 pt-[180px]">
+      <div>
         <div className="flex flex-col gap-4 mb-4 ">
           <div className="flex items-center gap-1.5">
             <FaArrowLeftLong size={28} />
