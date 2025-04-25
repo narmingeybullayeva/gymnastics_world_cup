@@ -17,7 +17,7 @@ const Apparatus = () => {
         </span>
       </div>
       <div className="flex flex-col items-center group">
-        <div className="text-3xl p-3 rounded-lg">
+        <div className="text-3xl p-3 ">
           <img src={pommelImg} alt="Vault" className="w-10 h-10" />
         </div>
         <span className="mt-1 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -25,7 +25,7 @@ const Apparatus = () => {
         </span>
       </div>
       <div className="flex flex-col items-center group">
-        <div className="text-3xl p-3 rounded-lg">
+        <div className="text-3xl p-3 ">
           <img src={ringsImg} alt="Vault" className="w-10 h-10" />
         </div>
         <span className="mt-1 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -33,7 +33,7 @@ const Apparatus = () => {
         </span>
       </div>
       <div className="flex flex-col items-center group">
-        <div className="text-3xl p-3 rounded-lg">
+        <div className="text-3xl p-3 ">
           <img src={vaultImg} alt="Vault" className="w-10 h-10" />
         </div>
         <span className="mt-1 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -41,7 +41,7 @@ const Apparatus = () => {
         </span>
       </div>
       <div className="flex flex-col items-center group">
-        <div className="text-3xl p-3 rounded-lg">
+        <div className="text-3xl p-3 ">
           <img src={parallelImg} alt="Vault" className="w-10 h-10" />
         </div>
         <span className="mt-1 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -49,7 +49,7 @@ const Apparatus = () => {
         </span>
       </div>
       <div className="flex flex-col items-center group">
-        <div className="text-3xl p-3 rounded-lg">
+        <div className="text-3xl p-3 ">
           <img src={horizontalImg} alt="Vault" className="w-10 h-10" />
         </div>
         <span className="mt-1 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">

@@ -1,9 +1,18 @@
+import { useEffect, useState } from 'react';
 import { FaArrowLeftLong } from "react-icons/fa6";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 const Navbar = () => {
+
+  const location = useLocation();
+  const [activeTab, setActiveTab] = useState("");
+
+  useEffect(() => {
+    const path = location.pathname.split("/")[1];
+    setActiveTab(path); 
+  }, [location]);
+  
   return (
-    <nav className="text-white py-4 pt-[180px]">
-      <div>
+    <nav className="text-white pt-25">    
         <div className="flex flex-col gap-4 mb-4 ">
           <div className="flex items-center gap-1.5">
             <FaArrowLeftLong size={28} />
@@ -25,7 +34,7 @@ const Navbar = () => {
               <Link to="/" className="cursor-pointer">
                 Live
               </Link>
-              <span className="absolute  bottom-0 left-0 w-full h-0.5 bg-[#0A8BEC] scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300 rounded-full" />
+              <span className={`${activeTab !== "results" && 'scale-x-100'} absolute  bottom-0 left-0 w-full h-0.5 bg-[#0A8BEC] scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300 rounded-full`} />
             </div>
 
             <div className="relative px-12 pb-2 group">
@@ -46,7 +55,7 @@ const Navbar = () => {
               <Link to="/results" className="cursor-pointer">
                 Results
               </Link>
-              <span className="absolute bottom-0 left-0 w-full h-0.5 bg-[#0A8BEC] scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300 rounded-full" />
+              <span className={`${activeTab == "results" && 'scale-x-100'} absolute  bottom-0 left-0 w-full h-0.5 bg-[#0A8BEC] scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300 rounded-full`} />
             </div>
 
             <div className="relative px-12 pb-2 group">
@@ -57,7 +66,7 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-      </div>
+ 
     </nav>
   );
 };

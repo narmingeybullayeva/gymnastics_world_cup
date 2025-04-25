@@ -6,7 +6,7 @@ import POL from "../../assets/images/POL.png";
 import NED from "../../assets/images/NED.png";
 import GBR from "../../assets/images/UK.png";
 
-export default function ResultTable() {
+function ResultTable() {
   return (
     <div className="overflow-x-auto mt-12 text-sm text-gray-300 font-light">
       <table className="min-w-full border-separate border-spacing-y-4">
@@ -363,3 +363,5 @@ export default function ResultTable() {
     </div>
   );
 }
+
+export default ResultTable
