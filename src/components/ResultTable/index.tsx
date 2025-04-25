@@ -32,7 +32,7 @@ function ResultTable() {
                     <div className="flex justify-left items-center gap-2 ">
                       <img
                         src={`images/${result.athlete.team_code}.png`}
-                        alt="rus"
+                        alt={result.athlete.team_name}
                         className="w-5 h-3 object-cover"
                       />
                       <span className="text-white">
