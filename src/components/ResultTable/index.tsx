@@ -83,15 +83,7 @@ function ResultTable() {
                 <tr className="relative">
                   <td colSpan={6}></td>
                   <td className="text-center text-[#C4C4C4]">Score</td>
-                  <td className="text-center text-[#FF9C07] ">{(
-                      result.apparatus_scores.d +
-                      result.apparatus_scores.e -
-                      result.apparatus_scores.p
-                     + 
-                      result.apparatus_scores.d +
-                      result.apparatus_scores.e -
-                      result.apparatus_scores.p
-                    ).toFixed(2)}</td>
+                  <td className="text-center text-[#FF9C07] ">102.100</td>
                   <td
                     colSpan={8}
                     className="absolute bottom-[-12px] left-0 w-full h-[2px]"
