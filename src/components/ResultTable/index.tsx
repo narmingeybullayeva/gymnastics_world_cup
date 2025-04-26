@@ -96,7 +96,7 @@ function ResultTable() {
                     colSpan={8}
                     className="absolute bottom-[-12px] left-0 w-full h-[2px]"
                   >
-                    <div className="h-full w-full bg-[linear-gradient(to_right,transparent,rgba(168,85,247,0.4),transparent)]" />
+                    <div className="h-full w-full bg-[linear-gradient(to_right,transparent,#6A21F4E5,transparent)]" />
                   </td>
                 </tr>
               </>
