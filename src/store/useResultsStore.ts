@@ -45,7 +45,7 @@ export const useResultsStore = create<ResultsState>((set) => ({
 
   fetchResults: async () => {
     try {
-      const res = await axios.get<Result[]>('../../data.json'); 
+      const res = await axios.get<Result[]>('/jsonData/data.json'); 
       console.log(res.data)
       set({ results: res.data });
     } catch (err) {
