@@ -1,30 +1,41 @@
-# React + TypeScript + Vite
+# Gymnastics World Cup
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Live Demo:** [https://gymnasticsworldcup.netlify.app/](https://gymnasticsworldcup.netlify.app/)
 
-## Expanding the ESLint configuration
+**Gymnastics World Cup** is a modern and interactive web application designed to manage and showcase gymnastics competitions. Built with React, TypeScript, Zustand, and other powerful technologies.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## Technologies Used
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+This project is built using the following core technologies:
+
+- **React** — A library for building user interfaces
+- **TypeScript** — A statically typed superset of JavaScript
+- **Tailwind CSS** — A utility-first CSS framework
+- **Zustand** — A simple and scalable state management library
+- **Axios** — A promise-based HTTP client for API requests
+- **React Router DOM** — Declarative routing for React
+- **Netlify** — For deployment and hosting
+
+---
+
+## Installation
+
+To run the project locally, follow these steps:
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/gymnastics-world-cup.git
+
+# Navigate to the project directory
+cd gymnastics-world-cup
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
 ```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
